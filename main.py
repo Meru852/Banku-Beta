@@ -5,9 +5,9 @@ from selenium.webdriver import ActionChains
 import speech_recognition as sr
 import time
 import pyautogui
-# import cv2
-# import pytesseract
-# from PIL import Image
+import cv2
+import pytesseract
+from PIL import Image
 import re
 
 #https://meet.google.com/ksk-wupz-nsw
@@ -89,33 +89,33 @@ def printnametime(x):
 
 # under programming so won't work
 
-# def response():
-#     time.sleep(20)
-#     im2 = pyautogui.screenshot("ss2.png")
-#     img2 = cv2.imread('ss2.png')
-#     crop2 = img2[280:911, 1520:1900]
-#     cv2.imwrite("ss2.png", crop2)
-#     try:
-#         if (compare("ss1.png", "ss2.png", 1) >= 5):
-#
-#             a1, b1 = MostCommonWord("ss2.png")
-#             print(a1)
-#             print(b1)
-#             if (b1 >= 3):
-#                 pyautogui.moveTo(1602, 181, duration=1)
-#                 pyautogui.click()
-#                 time.sleep(2)
-#                 pyautogui.moveTo(1505, 984, duration=1)
-#                 pyautogui.click()
-#                 pyautogui.typewrite(a1, 1)
-#                 pyautogui.press('enter')
-#                 time.sleep(2)
-#         else:
-#             print("nothing new here")
-#     except:
-#         print('everything under control!!')
-#     cv2.imwrite("ss1.png", crop2)
-#     time.sleep(20)
+def response():
+    time.sleep(20)
+    im2 = pyautogui.screenshot("ss2.png")
+    img2 = cv2.imread('ss2.png')
+    crop2 = img2[280:911, 1520:1900]
+    cv2.imwrite("ss2.png", crop2)
+    try:
+        if (compare("ss1.png", "ss2.png", 1) >= 5):
+
+            a1, b1 = MostCommonWord("ss2.png")
+            print(a1)
+            print(b1)
+            if (b1 >= 3):
+                pyautogui.moveTo(1602, 181, duration=1)
+                pyautogui.click()
+                time.sleep(2)
+                pyautogui.moveTo(1505, 984, duration=1)
+                pyautogui.click()
+                pyautogui.typewrite(a1, 1)
+                pyautogui.press('enter')
+                time.sleep(2)
+        else:
+            print("nothing new here")
+    except:
+        print('everything under control!!')
+    cv2.imwrite("ss1.png", crop2)
+    time.sleep(20)
 
 
 def main():
