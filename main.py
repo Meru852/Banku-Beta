@@ -47,7 +47,20 @@ def meetlogin(browser, url, callDur):
 
     browser.close()
 
+def speech_alert():
+    r = sr.Recognizer()
 
+    with sr.Microphone() as source:
+        print('Say Anything: ')
+        audio = r.listen(source)
+
+        try:
+            text = r.recognize_google(audio)
+            print(text)
+        except:
+            print('Sorry I did not get it')
+
+    
 def main():
     print('Banku Beta is active:')
 
