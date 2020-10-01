@@ -14,4 +14,8 @@ The Online Class Bot is built on Python and its main purpose is to attend online
 * Regular Expressions 
 * PyAudio ---> To get acces to the microphone when the user gets alerted
 
+#### PPT -- https://docs.google.com/presentation/d/1gwMEWv7Ff8iF-zKDXsyTfchPvgPXpWtiKEL8k75eA5k/edit?usp=sharing
+#### Video link ---
+
+
 This bot will be made entirely for learning and implementing the functionality of these libraries/packages of python and educational purposes.
