@@ -20,6 +20,8 @@ Banku Beta-An Online Class Bot is built on Python and its main purpose is to att
 * In main.py file enter the 135(email) and line 136(password) of your account
 * run the script main.py and enter the required details regarding meeting 
 
+*Coordinate.py is a file made using PyAutoGUI to get the coordinates of certain things that are unable to get using selenium.
+
 *PyTesserect.py and speech_recog.py are only to test the that these libraries are installed correctly or not.
 
 *Download and install Tesseract.exe and chromedriver.exe and give its proper path in the main.py.
