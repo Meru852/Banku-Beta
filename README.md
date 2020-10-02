@@ -14,6 +14,15 @@ Banku Beta-An Online Class Bot is built on Python and its main purpose is to att
 * Regular Expressions 
 * PyAudio ---> To get acces to the microphone when the user gets alerted
 
+## How to Run:
+* Download the zip code or clone the repository using git bash in a virtual environment.
+* install all the packages from requirements.txt file
+* In main.py file enter the 135(email) and line 136(password) of your account
+* run the script main.py and enter the required details regarding meeting 
+
+*PyTesserect.py and speech_recog.py are only to test the that these libraries are installed correctly or not.
+*Download and install Tesseract.exe and chromedriver.exe and give its proper path in the main.py
+
 #### PPT -- https://docs.google.com/presentation/d/1gwMEWv7Ff8iF-zKDXsyTfchPvgPXpWtiKEL8k75eA5k/edit?usp=sharing
 #### Video link ---
 
