@@ -27,7 +27,7 @@ Banku Beta-An Online Class Bot is built on Python and its main purpose is to att
 *Download and install Tesseract.exe and chromedriver.exe and give its proper path in the main.py.
 
 #### PPT -- https://docs.google.com/presentation/d/1gwMEWv7Ff8iF-zKDXsyTfchPvgPXpWtiKEL8k75eA5k/edit?usp=sharing
-#### Video link ---
+#### Video link --- https://www.youtube.com/watch?v=xoGubbkAGqA&ab_channel=BankuBeta
 
 
 This bot will be made entirely for learning and implementing the functionality of these libraries/packages of python and educational purposes.
