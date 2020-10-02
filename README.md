@@ -21,7 +21,8 @@ Banku Beta-An Online Class Bot is built on Python and its main purpose is to att
 * run the script main.py and enter the required details regarding meeting 
 
 *PyTesserect.py and speech_recog.py are only to test the that these libraries are installed correctly or not.
-*Download and install Tesseract.exe and chromedriver.exe and give its proper path in the main.py
+
+*Download and install Tesseract.exe and chromedriver.exe and give its proper path in the main.py.
 
 #### PPT -- https://docs.google.com/presentation/d/1gwMEWv7Ff8iF-zKDXsyTfchPvgPXpWtiKEL8k75eA5k/edit?usp=sharing
 #### Video link ---
