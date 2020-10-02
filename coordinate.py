@@ -8,7 +8,8 @@ x,y=pyautogui.position()
 print(x,y)
 
 
-#pyautogui.moveTo(x,y) is used to move the mouse from any position to the point x,y pyautogui.click() is used to simulate a mouse click over here.
+#pyautogui.moveTo(x,y) is used to move the mouse from any position to the point x,y
+#pyautogui.click() is used to simulate a mouse click over here.
 
 pyautogui.moveTo(x,y)
 pyautogui.click()
