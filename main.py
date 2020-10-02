@@ -10,7 +10,6 @@ import pytesseract
 from PIL import Image
 import re
 
-#https://meet.google.com/ksk-wupz-nsw
 
 def googlelogin(browser, email, password):
     print('Logging into google.....')
@@ -124,17 +123,17 @@ def main():
     chrome_options = webdriver.ChromeOptions()
 
     chrome_options.add_experimental_option("prefs", { \
-        "profile.default_content_setting_values.media_stream_mic": 2,
+        "profile.default_content_setting_values.media_stream_mic": 2,                    #2.Block 1.Allow
         "profile.default_content_setting_values.media_stream_camera": 2,
         "profile.default_content_setting_values.geolocation": 2,
         "profile.default_content_setting_values.notifications": 2
     })
 
-    browser = webdriver.Chrome(executable_path=r'C:\Users\NAMANJEET SINGH\Documents\chromedriver_win32\chromedriver.exe',options=chrome_options)
+    browser = webdriver.Chrome(executable_path=r'C:\Program Files\chromedriver_win32\chromedriver.exe',options=chrome_options)
     browser.maximize_window()
 
-    email = 'bankubeta123@gmail.com'                       # Enter G mail here
-    password = 'brogrammers3211'                           # Enter PASSWORD here
+    email = 'email_id'                                     # Enter G mail here
+    password = 'password'                                  # Enter PASSWORD here
     url = input('Enter meeting link: ')                    # Enter Meeting URL here
     callDur = int(input('Enter duration in minutes: '))    # Enter how long you want the call
 
